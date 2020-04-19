@@ -1,0 +1,70 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+
+/*------ Variables */
+
+ :root {
+    /*------ Colores */
+    --green-color: #7ACC2D;
+    --black-color: #313337;
+    --white-color: white;
+    /*------ Tipografía */
+    --normal: 12px;
+    --especial: 20px;
+    /*------ Espaciado */
+    --space: 10px;
+    --space-2: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: helvetica;
+    color: var(--white-color);
+    background-color: rgb(153, 22, 22);
+}
+
+p {
+    font-size: var(--especial);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space);
+    background-color: var(--green-color);
+}
+
+.images {
+    width: 100px;
+    height: 100px;
+}
+
+.main_section {
+    text-align: center;
+    padding: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.text {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: solid wheat 20px;
+}
+
+.form {
+    border: solid yellow 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

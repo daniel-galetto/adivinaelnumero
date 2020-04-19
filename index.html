@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Adivina el Numero</title>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Juego Adivina el número</h1>
+        <img class="images" src="images/1.png" alt="?">
+    </nav>
+
+    <div class="main_section">
+        <div class="text">
+            <p>Seleccionamos un número aleatorio entre el 1 y 100.</p>
+            <p>Fijate si puedes adivinarlo en 10 intentos o menos.</p>
+            <p>Vamos a decirte si tu numero es más alto o más bajo.</p>
+        </div>
+
+        <form class="form" autocomplete="off">
+            <input type="text" placeholder="Ingresa un numero" id="numingresado">
+            <input type="button" value="Probar" id="btnprobar">
+        </form>
+
+        <p id="result_box"> </p>
+        <p id="numeros_ingresados"></p>
+        <p id="intentos"> </p>
+    </div>
+
+    <script src="juego.js"></script>
+</body>
+
+</html>
